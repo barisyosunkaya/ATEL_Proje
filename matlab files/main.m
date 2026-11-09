@@ -16,6 +16,7 @@ basepath="C:\Users\ruzga\Documents\GitHub Repositories\ATEL_Proje\matlab files"
 %fileName = 'E:\MPACT_DroneRC_RF_Dataset\MPACT_DroneRC_RF_Dataset\DJI_Phantom4Pro_1\DJI_Phantom4Pro_1_0001.mat';
 fileName = basepath+"\DJI_Phantom4Pro_1_0001.mat";
 % "C:\Users\ruzga\Documents\GitHub Repositories\ATEL_Proje\matlab files\DJI_Phantom4Pro_1_0001.mat"
+%denemedenemedenemedeneme
 Fs = 20e9;
 d = droneRC(fileName,Fs,'IncludeFeatures')
 W = 5e3;
