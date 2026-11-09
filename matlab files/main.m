@@ -17,6 +17,7 @@ basepath="C:\Users\ruzga\Documents\GitHub Repositories\ATEL_Proje\matlab files"
 fileName = basepath+"\DJI_Phantom4Pro_1_0001.mat";
 % "C:\Users\ruzga\Documents\GitHub Repositories\ATEL_Proje\matlab files\DJI_Phantom4Pro_1_0001.mat"
 %denemedenemedenemedeneme
+%barışın dosyasını ellemece
 Fs = 20e9;
 d = droneRC(fileName,Fs,'IncludeFeatures')
 W = 5e3;
