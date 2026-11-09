@@ -55,7 +55,7 @@ arguments
     opts.phaseNoiseStd (1,1) double = 5e-5                % rad/sample random-walk increment
 
     % Quantization / export
-    opts.exportFormat (1,:) char = 'sc16'                 % 'sc16' or 'cf32'
+    opts.exportFormat (1,:) char = 'cf32'                 % 'sc16' or 'cf32'
     opts.headroom (1,1) double {mustBePositive} = 0.8     % scale to this max magnitude before quantize
 end
 
