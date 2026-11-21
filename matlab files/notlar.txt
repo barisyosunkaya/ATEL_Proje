@@ -1,0 +1,4 @@
+son edit: 21 Kasım 15.30
+
+extract_features_batch dosyası şuanlık RFUAV datasetlerini çıkarmada kullanıyoruz. Çalıştırıldığı file path'te diğer gerekli matlab dosyaları da olmalı, örneğin mpact_emulate_sdr_iq (galiba), o yüzden dosyaları beraber taşıyın
+-Rüzgar
