@@ -122,5 +122,3 @@ function x = read_iq_interleaved(filename, fmt, Nread)
             error("Bilinmeyen fmt: %s", fmt);
     end
 end
-
-

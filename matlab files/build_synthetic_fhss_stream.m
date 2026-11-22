@@ -5,8 +5,8 @@
 clear; clc; close all;
 
 %% 1. Ayarlar
-dataDir    = '/Users/zeynepsahin/Desktop/feature_ext/Futaba_T8FG'; % MAT dosyalarinin yolu
-outputIq   = fullfile(pwd, 'synthetic_futaba_fhss_stream.iq');     % Pluto SDR icin cikti dosyasi
+dataDir    = 'C:\Users\User\Desktop\ATEL(1)'; % MAT dosyalarinin yolu
+outputIq   = fullfile(pwd, 'synthetic_DJI_Inspire1PRO_fhss_stream.iq');     % Pluto SDR icin cikti dosyasi
 
 Fs_sdr     = 20e6;       % Pluto SDR ornekleme hizi (20 MSa/s)
 bwDDC      = 20e6;       % Filtre bant genisligi (20 MHz)
