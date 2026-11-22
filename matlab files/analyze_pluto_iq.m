@@ -20,7 +20,7 @@ clear; clc; close all;
 S.iqFile     = '';                 % Full path to Pluto IQ file; '' opens a file picker
 S.dataFormat = 'cf32';             % 'cf32' (interleaved float32), 'sc16' (interleaved int16), or 'mat'
 S.Fs         = 20e6;               % Pluto RX sample rate (20 MS/s after 100 -> 20 MHz decimation)
-S.fc         = 2.44e9;             % Pluto RX center frequency (Hz) — set to your tuned LO frequency
+S.fc         = 2.40e9;             % Pluto RX center frequency (Hz) — set to your tuned LO frequency
 S.deviceTag  = 'Pluto_RX_Capture'; % Label used in output folder/plots (overridden if .xml exists)
 S.outRoot    = fullfile(pwd, 'pluto_analysis_out');
 
